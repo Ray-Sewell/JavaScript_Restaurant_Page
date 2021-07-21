@@ -1,12 +1,8 @@
-import _ from 'lodash';
+import home from "./home";
+import "./index.css";
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const content = document.querySelector("#content");
 
-    return element;
-}
- 
-document.body.appendChild(component());
+home(content);
 
 console.log("Hello world!");

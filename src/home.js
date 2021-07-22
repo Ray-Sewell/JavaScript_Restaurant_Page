@@ -11,7 +11,7 @@ function home(content) {
     menubutton.id = "home-menu-button";
     menubutton.innerHTML = "MENU";
     logo.innerHTML = "Generic Restaurant";
-    subheading.innerHTML = "The finest of generic gourmet dishes";
+    subheading.innerHTML = "The finest of generic dishes";
     splashcontainer.appendChild(logo);
     splashcontainer.appendChild(subheading);
     splashcontainer.appendChild(menubutton);

@@ -48,12 +48,20 @@
     background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
 }
 #about-wrapper {
-    background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
+    background-image: url("https://static.onecms.io/wp-content/uploads/sites/28/2021/02/19/new-york-city-evening-NYCTG0221.jpg");
+}
+#book-wrapper {
+    background-image: url("https://www.stylist.co.uk/images/app/uploads/2020/02/30154735/thehoxtonholborn_day1_8_007_v3.jpg");
+}
+#menu-wrapper {
+    background-image: url("https://s26162.pcdn.co/wp-content/uploads/2020/03/kitchen.jpg");
 }
 #splash-container {
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+    padding-bottom: 10em;
     background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    max-width: 700px;
 }
 h1 {
     font-size: 3em;
@@ -63,6 +71,9 @@ h1 {
 h3 {
     font-family: sans-serif;
     font-weight: 400;
+}
+p {
+    margin-top: 1em;
 }
 #home-menu-button {
     cursor: pointer;
@@ -76,4 +87,17 @@ h3 {
 #home-menu-button:hover {
     color: white;
     background: black;
+}
+table {
+    text-align: left;
+    margin-top: 1em;
+    background: whitesmoke;
+    color:darkslategray;
+    padding: 1em;
+}
+td {
+    padding: .2em;
+}
+tr {
+    margin-bottom: .2em;
 }

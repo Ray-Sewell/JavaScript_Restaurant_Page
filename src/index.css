@@ -23,24 +23,32 @@
 #nav-end {
     width: 200px;
 }
-.nav-button {
+.nav-button, .nav-focused{
     cursor: pointer;
     padding: 1em;
+}
+.nav-focused {
+    background: darkcyan;
 }
 .nav-button:hover {
     color: black;
     background: white;
 }
-#home-wrapper {
+.wrapper {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color:white;
-    background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
     background-size:cover;
     background-position: center;
+}
+#home-wrapper {
+    background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
+}
+#about-wrapper {
+    background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
 }
 #splash-container {
     text-align: center;
@@ -56,7 +64,7 @@ h3 {
     font-family: sans-serif;
     font-weight: 400;
 }
-#menu-button {
+#home-menu-button {
     cursor: pointer;
     margin-top: 2em;
     border: none;
@@ -65,7 +73,7 @@ h3 {
     font-size: 2em;
     font-weight: 400;
 }
-#menu-button:hover {
+#home-menu-button:hover {
     color: white;
     background: black;
 }

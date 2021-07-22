@@ -1,3 +1,5 @@
+import about from "./about";
+
 function nav(content) {
     let wrapper = document.createElement("div");
     wrapper.id = "nav-wrapper";
@@ -21,6 +23,10 @@ function nav(content) {
     aboutbutton.className = "nav-button";
     bookbutton.className = "nav-button";
     menubutton.className = "nav-button";
+    homebutton.id = "home-button";
+    aboutbutton.id = "about-button";
+    bookbutton.id = "book-button";
+    menubutton.id = "menu-button";
     navmain.appendChild(homebutton);
     navmain.appendChild(aboutbutton);
     navmain.appendChild(bookbutton);

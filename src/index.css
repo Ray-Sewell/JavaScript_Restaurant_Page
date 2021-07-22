@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#content {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+#nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color:white;
+}
+#nav-start {
+    width: 200px;
+}
+#nav-main {
+    display: flex;
+}
+#nav-end {
+    width: 200px;
+}
+.nav-button {
+    cursor: pointer;
+    padding: 1em;
+}
+.nav-button:hover {
+    color: black;
+    background: white;
+}
+#home-wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-image: url("https://cf.ltkcdn.net/gourmet/images/orig/248384-1600x1030-gourmet-food.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#splash-container {
+    text-align: center;
+    padding: 1em;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#menu-button {
+    cursor: pointer;
+    margin-top: 2em;
+    border: none;
+    color: black;
+    background: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+#menu-button:hover {
+    color: white;
+    background: black;
+}
